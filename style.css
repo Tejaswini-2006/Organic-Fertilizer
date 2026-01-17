@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://i0.wp.com/www.bigtoolbox.com/wp-content/uploads/2022/05/BTB-Blog-Organic.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.cta-button {
+    background-color: #FF9800;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.cta-button:hover {
+    background-color: #FF5722;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-info {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* Product Section */
+.product-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    color: #388E3C;
+}
+
+button.add-to-cart {
+    background-color: #FF9800;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button.add-to-cart:hover {
+    background-color: #FF5722;
+}
+
+/* Contact Us Section */
+.contact-us {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+}
+
+.contact-container form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-container button {
+    background-color: #FF5722;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.contact-container button:hover {
+    background-color: #FF9800;
+}
+
+/* Cart Section */
+#cart {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#cart-items {
+    margin-bottom: 20px;
+}
+
+button#checkout {
+    background-color: #388E3C;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: not-allowed;
+}
+
+button#checkout:enabled {
+    cursor: pointer;
+    background-color: #FF5722;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
